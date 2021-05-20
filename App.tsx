@@ -122,9 +122,10 @@ export default function App() {
 
       </View>
       <View>
-        <Text style={styles.textStyle}>    22 Likes</Text>
+        <Text style={styles.textStyle}>22 Likes</Text>
         <Text style={styles.textStyle}>Province Feels!!!</Text>
         <Text>pasodpasd</Text>
+        <Text>Hello </Text>
       </View>
       
       
