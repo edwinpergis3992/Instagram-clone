@@ -126,6 +126,7 @@ export default function App() {
         <Text style={styles.textStyle}>Province Feels!!!</Text>
         <Text>pasodpasd</Text>
         <Text>Hello </Text>
+        <Text>hi</Text>
       </View>
       
       
