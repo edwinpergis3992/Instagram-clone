@@ -26,7 +26,6 @@ const styles = StyleSheet.create({
   },
   profile1: {
     width: 64,
-    // backgroundColor: 'red'
   },
   userLogo1: {
     height: 64,
@@ -63,32 +62,37 @@ const styles = StyleSheet.create({
 
   },
   textStyle: {
+    marginLeft: 8,
     fontSize: 14,
     top: 4
   },
+  textStyle1: {
+    fontSize: 14,
+    fontWeight: 'bold',
+  },
   imageContainer: {
-    height: 450,
-    paddingTop: 4
+    paddingTop: 4,
   },
   picStory: {
-    height: 450
+    height: 350,
+    width: 360
   },
- 
-  saveComment:{
-position: 'absolute',
-right: 14,
-top: 10
+  iconStyle: {
+    height: 24,
+    width: 24,
+  },
+  saveComment: {
+    height: 24,
+    width: 24,
+    marginRight: 6
   },
   commentLogo: {
     paddingLeft: 14,
-    paddingTop: 4
   },
   storyComment: {
     paddingTop: 6,
     flexDirection: 'row'
   }
-
-
 });
 
 export default styles;

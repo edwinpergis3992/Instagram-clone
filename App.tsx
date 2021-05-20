@@ -22,114 +22,121 @@ export default function App() {
           />
         </TouchableOpacity>
       </View>
-      <View style={styles.userContainer}>
-        <ScrollView horizontal showsHorizontalScrollIndicator={false}>
-          <View style={styles.profile1}>
-            <TouchableOpacity>
-              <Image
-                source={{ uri: 'https://cdn1.clickthecity.com/wp-content/uploads/2021/05/17092315/John-Lloyd-Cruz-768x432.jpg' }}
-                style={styles.userLogo1}
-              />
-            </TouchableOpacity>
-            <AntDesign name="pluscircle" size={18} color="blue"
-              style={styles.plusIcon}
-            />
-            <Text>Your Story</Text>
-          </View>
-          <View style={styles.profileContainer}>
+      <ScrollView showsHorizontalScrollIndicator={false}>
+        <View style={styles.userContainer}>
+          <ScrollView horizontal showsHorizontalScrollIndicator={false}>
             <View style={styles.profile1}>
-              <Image
-                source={{ uri: 'https://wallpapercave.com/wp/wp4396391.jpg' }}
-                style={styles.userLogo1}
+              <TouchableOpacity>
+                <Image
+                  source={{ uri: 'https://cdn1.clickthecity.com/wp-content/uploads/2021/05/17092315/John-Lloyd-Cruz-768x432.jpg' }}
+                  style={styles.userLogo1}
+                />
+              </TouchableOpacity>
+              <AntDesign name="pluscircle" size={18} color="blue"
+                style={styles.plusIcon}
               />
-              <Text>  Dex Diaz</Text>
+              <Text>Your Story</Text>
             </View>
-          </View>
-          <View style={styles.profileContainer}>
-            <View style={styles.profile1}>
-              <Image
-                source={{ uri: 'https://news.cgtn.com/news/3d3d774e3445444f79457a6333566d54/img/c43b323fab68441fa9c4a029f5911d04/c43b323fab68441fa9c4a029f5911d04.jpg' }}
-                style={styles.userLogo1}
-              />
-              <Text>  Ginobili</Text>
+            <View style={styles.profileContainer}>
+              <View style={styles.profile1}>
+                <Image
+                  source={{ uri: 'https://wallpapercave.com/wp/wp4396391.jpg' }}
+                  style={styles.userLogo1}
+                />
+                <Text>Dex Diaz</Text>
+              </View>
             </View>
-          </View>
-          <View style={styles.profileContainer}>
-            <View style={styles.profile1}>
-              <Image
-                source={{ uri: 'https://media.philstar.com/photos/2020/09/19/vic-sotto-pauleen-luna_2020-09-19_14-50-28.jpg' }}
-                style={styles.userLogo1}
-              />
-              <Text>  Vic Sotto</Text>
+            <View style={styles.profileContainer}>
+              <View style={styles.profile1}>
+                <Image
+                  source={{ uri: 'https://news.cgtn.com/news/3d3d774e3445444f79457a6333566d54/img/c43b323fab68441fa9c4a029f5911d04/c43b323fab68441fa9c4a029f5911d04.jpg' }}
+                  style={styles.userLogo1}
+                />
+                <Text>Ginobili</Text>
+              </View>
             </View>
-          </View>
-          <View style={styles.profileContainer}>
-            <View style={styles.profile1}>
-              <Image
-                source={{ uri: 'https://cdn.nba.com/manage/2020/10/lebron-james-lakers-687x588.jpg' }}
-                style={styles.userLogo1}
-              />
-              <Text>    lebron</Text>
+            <View style={styles.profileContainer}>
+              <View style={styles.profile1}>
+                <Image
+                  source={{ uri: 'https://media.philstar.com/photos/2020/09/19/vic-sotto-pauleen-luna_2020-09-19_14-50-28.jpg' }}
+                  style={styles.userLogo1}
+                />
+                <Text>Vic Sotto</Text>
+              </View>
             </View>
-          </View>
-          <View style={styles.profileContainer}>
-            <View style={styles.profile1}>
-              <Image
-                source={{ uri: 'https://scontent.fmnl4-1.fna.fbcdn.net/v/t1.6435-9/72041770_2501072120013917_5399446938217086976_n.jpg?_nc_cat=104&ccb=1-3&_nc_sid=09cbfe&_nc_ohc=Z5YQKOD602EAX9G0hQP&_nc_oc=AQmO8wORRBKeq5pbjMnfWJt1LcX9BbSTEaA_z6zEUoci96YnhCfTk4xHYbfWZDUiCVc&_nc_ht=scontent.fmnl4-1.fna&oh=85ba2a13f0e440f345c2af09227df364&oe=60CD5CF6' }}
-                style={styles.userLogo1}
-              />
-              <Text>    Mhau</Text>
+            <View style={styles.profileContainer}>
+              <View style={styles.profile1}>
+                <Image
+                  source={{ uri: 'https://cdn.nba.com/manage/2020/10/lebron-james-lakers-687x588.jpg' }}
+                  style={styles.userLogo1}
+                />
+                <Text>Lebron</Text>
+              </View>
             </View>
-          </View>
-        </ScrollView>
-      </View>
-      <View style={styles.feedContainer}>
-      </View>
-      <View style={styles.storyContainer}>
-        <Image
-          source={{ uri: 'https://wallpapercave.com/wp/wp4396391.jpg' }}
-          style={styles.userStory}
-        />
-        <Text style={styles.textStyle}>   Dex Diaz</Text>
+            <View style={styles.profileContainer}>
+              <View style={styles.profile1}>
+                <Image
+                  source={{ uri: 'https://scontent.fmnl4-1.fna.fbcdn.net/v/t1.6435-9/72041770_2501072120013917_5399446938217086976_n.jpg?_nc_cat=104&ccb=1-3&_nc_sid=09cbfe&_nc_ohc=Z5YQKOD602EAX9G0hQP&_nc_oc=AQmO8wORRBKeq5pbjMnfWJt1LcX9BbSTEaA_z6zEUoci96YnhCfTk4xHYbfWZDUiCVc&_nc_ht=scontent.fmnl4-1.fna&oh=85ba2a13f0e440f345c2af09227df364&oe=60CD5CF6' }}
+                  style={styles.userLogo1}
+                />
+                <Text>Mhau</Text>
+              </View>
+            </View>
+          </ScrollView>
+        </View>
+        <View style={styles.feedContainer}>
+        </View>
+        <View style={styles.storyContainer}>
+          <Image
+            source={{ uri: 'https://wallpapercave.com/wp/wp4396391.jpg' }}
+            style={styles.userStory}
+          />
+          <Text style={styles.textStyle}>Dex Diaz</Text>
 
-        <Entypo name="dots-three-vertical" size={16} color="black"
-          style={styles.dot}
-        />
-      </View>
-      
-      <View style={styles.imageContainer}>
-        <Image
-          source={{ uri: 'https://www.famousbirthdays.com/headshots/dexie-diaz-5.jpg' }}
-          style={styles.picStory}
-        />
-      </View>
-      <View style={styles.storyComment}>
-        <View style={styles.commentLogo}>
-          <Feather name="heart" size={24} color="black"
+          <Entypo name="dots-three-vertical" size={16} color="black"
+            style={styles.dot}
           />
         </View>
-        <View style={styles.commentLogo}>
-          <FontAwesome5 name="comment" size={24} color="black"
+        <View style={styles.imageContainer}>
+          <Image
+            source={{ uri: 'https://www.famousbirthdays.com/headshots/dexie-diaz-5.jpg' }}
+            style={styles.picStory}
           />
         </View>
-        <View style={styles.commentLogo}>
-          <Feather name="send" size={24} color="black"
-          />
-        </View>
-        <Ionicons name="md-save-outline" size={24} color="black"
-          style={styles.saveComment}
-        />
 
-      </View>
-      <View>
-        <Text style={styles.textStyle}>22 Likes</Text>
-        <Text style={styles.textStyle}>Province Feels!!!</Text>
-        <Text>hello</Text>
-      </View>
-      
-      
+        <View style={{ paddingTop: 4, flexDirection: 'row', justifyContent: 'space-between' }}>
+          <View style={{ flexDirection: 'row', marginLeft: 4, justifyContent: 'space-between' }}>
+            <View style={{ marginRight: 4 }}>
+              <Feather name="heart" size={24} color="black"
+              />
+            </View>
+            <View style={{ marginRight: 4 }}>
+              <Image
+                source={{ uri: 'https://img.pngio.com/chat-comment-instagram-sets-icon-instagram-comment-png-512_512.png' }}
+                style={styles.iconStyle}
+              />
+            </View>
+            <View style={{ marginRight: 4 }}>
+              <Feather name="send" size={24} color="black"
+              />
+            </View>
+          </View>
+          <Image
+            source={{ uri: 'https://cdn3.iconfinder.com/data/icons/basic-user-interface-application/32/INSTAGRAM_ICON_SETS-07-512.png' }}
+            style={styles.saveComment}
+          />
+        </View>
+        <View style={{paddingLeft: 16, paddingTop: 4}}>
+          <Text style={styles.textStyle1}>22 Likes</Text>
+          <View style={{ flexDirection: 'row' }}>
+            <Text style={styles.textStyle1}>Dex Diaz</Text>
+            <Text style={{marginLeft: 8}}>Province Feels!!!</Text>
+          </View>
+        </View>
+
+      </ScrollView>
     </>
-    
+
   );
 }
 
