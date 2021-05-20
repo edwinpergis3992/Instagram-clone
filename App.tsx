@@ -124,9 +124,7 @@ export default function App() {
       <View>
         <Text style={styles.textStyle}>22 Likes</Text>
         <Text style={styles.textStyle}>Province Feels!!!</Text>
-        <Text>pasodpasd</Text>
-        <Text>Hello </Text>
-        <Text>hi</Text>
+        
       </View>
       
       
